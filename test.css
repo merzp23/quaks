@@ -16,6 +16,26 @@ Gitee：https://gitee.com/nianbroken/Firework_Simulator
   html {
     background-color: #000;
   }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background: rgba(255, 255, 255, 0.5); */
+    z-index: 999;
+  }
+  .watermark {
+    position: fixed;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    font-size:  1.5em;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    opacity: 0.3;
+
+  }
   
   body {
     overflow: hidden;
