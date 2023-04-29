@@ -28,12 +28,12 @@ Gitee：https://gitee.com/nianbroken/Firework_Simulator
   .watermark {
     position: fixed;
     display: flex;
-    top: 50%;
+    top: 90%;
     left: 50%;
-    font-size:  1.5em;
+    font-size:  1em;
     transform: translate(-50%, -50%);
     z-index: 9999;
-    opacity: 0.3;
+    opacity: 0.5;
 
   }
   
