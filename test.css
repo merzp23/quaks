@@ -26,7 +26,7 @@ Gitee：https://gitee.com/nianbroken/Firework_Simulator
     z-index: 999;
   }
   .watermark {
-    animation: watermark 7s linear; /* 3s for 3 seconds */
+    animation: watermark 7s linear;
     position: absolute;
     display: flex;
     top: 90%;
